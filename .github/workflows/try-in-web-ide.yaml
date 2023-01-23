@@ -17,5 +17,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           add_comment: true
           add_status: true
-          setup_remotes: true
+          setup_remotes: false
           web_ide_instance: https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com
