@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Eclipse Che Pull Request Link
         id: che-pr-check-gh-action
-        uses: dkwon17/try-in-web-ide@setup-remotes
+        uses: dkwon17/try-in-web-ide@setupRemotesInput
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           add_comment: true
