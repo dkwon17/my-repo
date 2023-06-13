@@ -14,7 +14,7 @@ jobs:
         id: che-pr-check-gh-action
         uses: dkwon17/try-in-web-ide@earliestMatch
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.DKWON_PAT }}
           add_comment: true
           add_status: true
           web_ide_instance: https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com
