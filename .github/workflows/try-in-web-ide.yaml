@@ -17,5 +17,5 @@ jobs:
           github_token: ${{ secrets.DKWON_PAT }}
           add_comment: true
           add_status: true
-          web_ide_instance: https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com
+          web_ide_instance: https://workspaces.openshift.com
           comment_badge: https://camo.githubusercontent.com/3122488a82d89644e38769039634f4c675816338b35921390b3319cb69bf1dd8/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d6e696768746c79253230436865266d6573736167653d666f722532306d61696e7461696e657273266c6f676f3d65636c6970736563686526636f6c6f723d464442393430266c6162656c436f6c6f723d353235433836
