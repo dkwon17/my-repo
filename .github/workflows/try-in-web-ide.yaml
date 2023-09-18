@@ -14,7 +14,6 @@ jobs:
         id: che-pr-check-gh-action
         uses: dkwon17/try-in-web-ide@testing
         with:
-          github_token: ${{ secrets.DKWON_PAT }}
           add_comment: true
           add_status: true
           web_ide_instance: https://workspaces.openshift.com
